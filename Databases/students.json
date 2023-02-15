@@ -4,5 +4,59 @@
     "name": "Jenna Smith",
     "age": 20,
     "course": "Computer Science"
+  },
+  {
+    "_id": 2,
+    "name": "Jacob Johnson",
+    "age": 19,
+    "course": "Mechanical Engineering"
+  },
+  {
+    "_id": 3,
+    "name": "Emily Davis",
+    "age": 21,
+    "course": "Psychology"
+  },
+  {
+    "_id": 4,
+    "name": "Ethan Wilson",
+    "age": 22,
+    "course": "Business Administration"
+  },
+  {
+    "_id": 5,
+    "name": "Avery Martinez",
+    "age": 18,
+    "course": "Biology"
+  },
+  {
+    "_id": 6,
+    "name": "Alexander Rodriguez",
+    "age": 20,
+    "course": "Electrical Engineering"
+  },
+  {
+    "_id": 7,
+    "name": "Isabella Hernandez",
+    "age": 19,
+    "course": "Journalism"
+  },
+  {
+    "_id": 8,
+    "name": "Benjamin Lee",
+    "age": 21,
+    "course": "Chemistry"
+  },
+  {
+    "_id": 9,
+    "name": "Sophia Garcia",
+    "age": 20,
+    "course": "Computer Science"
+  },
+  {
+    "_id": 10,
+    "name": "William Brown",
+    "age": 22,
+    "course": "Mechanical Engineering"
   }
 ]
