@@ -49,3 +49,16 @@ async function main() {
 }
 
 main();
+
+// OUTPUT
+// Swarm listening on /ip4/192.168.31.97/tcp/4002/p2p/QmUYAgBU6gShNXabCdr2KCBM9jFWm2aefd6daEjAQtRbEH
+// Swarm listening on /ip4/127.0.0.1/tcp/4002/p2p/QmUYAgBU6gShNXabCdr2KCBM9jFWm2aefd6daEjAQtRbEH
+// Swarm listening on /ip4/127.0.0.1/tcp/4003/ws/p2p/QmUYAgBU6gShNXabCdr2KCBM9jFWm2aefd6daEjAQtRbEH
+// [
+//   {
+//     _id: 10,
+//     name: 'William Brown',
+//     age: 22,
+//     course: 'Mechanical Engineering'
+//   }
+// ]

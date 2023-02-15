@@ -41,7 +41,7 @@ async function main() {
 
   // Reading the Database
   var profile = studentDB.get("10");
-  console.log(profile[0].name);
+  console.log(profile);
 
   // Changing the the name of the student with id = "10"
   profile[0].name = "New name";
@@ -54,7 +54,8 @@ async function main() {
 
   // Showing the new student details at id = "10"
   const pr1 = studentDB.get("10");
-  console.log(pr1[0]);
+  console.log("After Changing updating the new name");
+  console.log(pr1);
 
   // console.log(studentDB.all);
 
@@ -65,3 +66,25 @@ async function main() {
 }
 
 main();
+
+// OUTPUT
+// Swarm listening on /ip4/192.168.31.97/tcp/4002/p2p/QmUYAgBU6gShNXabCdr2KCBM9jFWm2aefd6daEjAQtRbEH
+// Swarm listening on /ip4/127.0.0.1/tcp/4002/p2p/QmUYAgBU6gShNXabCdr2KCBM9jFWm2aefd6daEjAQtRbEH
+// Swarm listening on /ip4/127.0.0.1/tcp/4003/ws/p2p/QmUYAgBU6gShNXabCdr2KCBM9jFWm2aefd6daEjAQtRbEH
+// [
+//   {
+//     _id: 10,
+//     name: 'William Brown',
+//     age: 22,
+//     course: 'Mechanical Engineering'
+//   }
+// ]
+// After Changing updating the new name
+// [
+//   {
+//     _id: 10,
+//     name: 'New name',
+//     age: 22,
+//     course: 'Mechanical Engineering'
+//   }
+// ]
