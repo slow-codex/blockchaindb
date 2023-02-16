@@ -1,5 +1,5 @@
 {
-  "name": "orbitdb-demo",
+  "name": "blockchaindb",
   "version": "1.0.0",
   "description": "A demo to play around with orbitDB",
   "main": "index.js",
